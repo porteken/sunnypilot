@@ -139,7 +139,7 @@ class CAR(Platforms):
                    footnotes=[Footnote.CIVIC_DIESEL], min_steer_speed=2. * CV.MPH_TO_MS),
       HondaCarDocs("Honda Civic Hatchback 2017-21", min_steer_speed=12. * CV.MPH_TO_MS),
     ],
-    CarSpecs(mass=1326, wheelbase=2.7, steerRatio=15.38, centerToFrontRatio=0.4),  # steerRatio: 10.93 is end-to-end spec
+    CarSpecs(mass=1462, wheelbase=2.7, steerRatio=15.38, centerToFrontRatio=1.08),  # steerRatio: 10.93 is end-to-end spec
     dbc_dict('honda_civic_hatchback_ex_2017_can_generated', None),
   )
   HONDA_CIVIC_BOSCH_DIESEL = HondaBoschPlatformConfig(
